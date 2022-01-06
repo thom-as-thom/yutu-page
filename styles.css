@@ -4,23 +4,25 @@ html{
 nav{
     background-color: white;
     width: 100%;
-    height: 10%;
-    border: khaki;
-    border-style: solid;
+    height: 5%;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
     color: black;
 }
 #logo{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    padding: 0 10em 0 0
+}
+#logotext{
+    font-weight: bolder;
+    font-size: large;
 }
 #menu{
     position:relative;
-
-   display: inline-block;
+    display: inline-block;
+    padding: 0em 3em 0em 0em ;
 }
 #menu-content{
     display: none;
@@ -35,32 +37,52 @@ nav{
     display: block;
   }
 #searchbar{
-width: 50%;
-border: solid;
-border-radius: 1px;
-border-width: 1px;
-display: flex;
-flex-direction: row;
+    height: 60%;
+    width: 50%;
+    border-style: solid;
+    border-radius: 1px;
+    border-width: 1px;
+    border-color: rgb(176, 187, 186);
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0px;
+    align-self: center;
   }
 #search-input{
     border-style: none;
     width: 90%;
 }
+#searchbutton{
+    width: 9%;
+    height: 60%;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(176, 187, 186);
+    align-self: center;
+}
 #search-btn{
-    width: 100%;
-    height: 100%;
-    background-color: rgb(176, 187, 186);
-    opacity: 25%;
+    width: 30%;
+    size-adjust:inherit;
+    justify-self: center;
+    align-self: center;
+    margin: 5% 30%;
 }
 #search-cross{
-    width: 5%;
+    width: 3%;
+    opacity: 75%;
 }
 #searchField{
     display: flex;
     flex-direction: row;
     justify-content:start;
-    width: 50%;
+    width: 70%;
 }
+.navbar-icon{
+    border-radius: 50%;
+    
+}
+
 .menu-item:hover{
     cursor:pointer  ;
 }
