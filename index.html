@@ -9,14 +9,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 </head>
 <body>
     <nav>
     
     <div id="menu">
-        <span>
-            <img src="icons/menu.svg" alt="menu button" id="menu-button">
-        </span>   
+        <span class="material-icons" id="menubtn">
+            menu
+            </span>
         <div id="menu-content">
             <p class="menu-item">pijapijapija</p>
             <p class="menu-item">Lorem, ipsum.</p>
@@ -33,19 +35,64 @@
     <div id="searchField">
         <div id="searchbar">
             <input type="text" name="search" id="search-input">
-            <img src="icons/close.svg" alt="erase" id="search-cross">
+            <span class="material-icons" id="search-cross">
+                close
+            </span>
         </div>
         <div id="searchbutton">
-            <img src="icons/keyword-research.svg" alt="search" id="search-btn">
+            <span class="material-icons" id="search-btn">
+                search
+            </span>
+        </div>
+        <div id="voice-srch">
+            <span class="material-icons" >
+                mic
+            </span>
         </div>
     </div>    
        
 </nav>
 <main>
-    <section id="video"></section>
+    <section id="video">
+        <iframe width="950" height="534" src="https://www.youtube.com/embed/lJIrF4YjHfQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+    <section id="title">
+        <H1>WOS - LIVE SET - Prod. EVLAY (Alma Dinamita, Freestyle, Fresco)</H1>
+        <h5>21.177.663 visualizaciones ·
+            Fecha de estreno: 5 mar 2021</h5>
+        <div>
+            <div id="likes">
+                <span class="material-icons">
+                    thumb_up_off_alt
+                </span> 
+                <h4>123.456</h4>               
+            </div>
+            <div>
+                <span class="material-icons">
+                    thumb_down_off_alt
+                </span>
+                <h4>NO ME GUSTA</h4>
+            </div>
+            <div>
+                <span class="material-icons">
+                    share
+                </span>
+                <h4>COMPARTIR</h4>
+            </div>
+            <div>
+                <span class="material-icons">
+                    playlist_add
+                </span>
+                <H4>GUARDAR</H4>
+            </div>
+            <div></div>
+        </div>
+
+    </section>
     <section id="description">
-        <h1></h1>
-        <h2></h2>
+        <Img src="https://picsum.photos/64/64"></Img>
+        <h1>Lorem, ipsum dolor.</h1>
+        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque iusto, mollitia nihil fugiat ad suscipit minima illum maxime dolore totam? Illum cupiditate aliquid libero facere consectetur molestias in nihil vel!</h2>
         <h3></h3>
         <h3></h3>
     </section>
