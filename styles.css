@@ -1,5 +1,8 @@
+
+
 html{
-    background-color: yellow;
+    background-color: #d3a4d3;
+    font-family: Roboto, Arial, Helvetica, sans-serif
 }
 nav{
     background-color: white;
@@ -8,6 +11,9 @@ nav{
     display: flex;
     flex-direction: row;
     color: black;
+    margin: 0px;
+    padding: 0px;
+    height: 50px;
 }
 #logo{
     display: flex;
@@ -18,11 +24,17 @@ nav{
 #logotext{
     font-weight: bolder;
     font-size: large;
+    align-self: center;    
+}
+
+#menu-button{
+    width: 90%;
 }
 #menu{
-    position:relative;
-    display: inline-block;
-    padding: 0em 3em 0em 0em ;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+
 }
 #menu-content{
     display: none;
@@ -78,18 +90,13 @@ nav{
     justify-content:start;
     width: 70%;
 }
-.navbar-icon{
-    border-radius: 50%;
-    
-}
 
 .menu-item:hover{
     cursor:pointer  ;
 }
 #video{
     background-color: antiquewhite;
-    width: 60%;
-    height: 80%;
+ 
     
 }
 #description{
