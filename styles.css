@@ -106,8 +106,21 @@ nav{
 #video{
     background-color: antiquewhite;
     margin: 24px;
- 
     
+}
+#interactions{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+}
+#titlegrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 #description{
     display: block;
