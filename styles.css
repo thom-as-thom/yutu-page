@@ -1,7 +1,6 @@
 
 
 html{
-    background-color: #d3a4d3;
     font-family: Roboto, Arial, Helvetica, sans-serif;
     margin: 0px;
 }
@@ -10,11 +9,11 @@ main{
     padding: 0PX;
     display: grid;
     grid-template-columns: 3fr 2fr;
+    background-color: #f9f9f9;
 }
 
 nav{
     background-color: white;
-    
     height: 5%;
     display: flex;
     flex-direction: row;
@@ -60,7 +59,6 @@ nav{
 .recomended{
     align-items: center;
     justify-content: center;
-    padding: 0px;
 }
 #menu{
     display: flex;
@@ -151,7 +149,7 @@ nav{
 }
 #description{
     display: block;
-    background-color: khaki;
+   
     margin: 24px;
 }
 #comments{
@@ -166,12 +164,48 @@ nav{
     display: grid;
     grid-template-columns: 1fr 2fr;
     margin-top: 8px;
-
-
+    padding: 0px;
 }
+img{
+    background-color: #f9f9f98f
+}
+
 #title{
     margin: 24px;
 }
 #titlegrid{
     margin: 24px;
+}
+.circle{
+    border-radius: 50%;
+}
+#description{
+    display: grid;
+    grid-template-columns: 1fr 10fr 2fr;
+}
+#suscribe{
+    background-color: #CC0000;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+   
+
+    text-align: center;
+    justify-content: center;
+    
+    margin: 7px 0px 7px 0px;
+    height:fit-content
+}
+#channel{
+    font-size: 14px;
+    font-weight: 600;
+}
+#subscribers{
+    font-size: 12px;
+    font-weight: 500;
+    color: #606060;
+}
+#description-text{
+    font-size: 14px;
+    font-weight: 400;
 }
