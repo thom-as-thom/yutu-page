@@ -8,6 +8,8 @@ html{
 main{
     margin: 0px;
     padding: 0PX;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
 }
 
 nav{
@@ -33,8 +35,33 @@ nav{
     align-self: center;    
 }
 
-
-
+.rec-title{
+    font-size: 14px;    
+}
+.rec-channel{
+    font-size: 12px;
+    font-weight: 400;
+    color: #606060;
+}
+.rec-views{
+    font-size: 10px;
+    font-weight: 400;
+    color: #606060;
+}
+.rec-time{
+    font-size: 10px;
+    color: #606060;
+}
+.rec-info{
+    height: 94px;
+    padding: 0px;
+    margin: 0px 0px 0px 0px;
+}
+.recomended{
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+}
 #menu{
     display: flex;
     flex-direction: row;
@@ -125,6 +152,7 @@ nav{
 #description{
     display: block;
     background-color: khaki;
+    margin: 24px;
 }
 #comments{
     display: block;
@@ -135,6 +163,15 @@ nav{
     background-color: aquamarine;
 }
 .rec-vid{
-    display: block;
-    background-color: gold;    
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-top: 8px;
+
+
+}
+#title{
+    margin: 24px;
+}
+#titlegrid{
+    margin: 24px;
 }
